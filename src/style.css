@@ -1,0 +1,29 @@
+/* purgecss start ignore */
+@tailwind base;
+
+@tailwind components;
+
+h1 {
+  @apply text-2xl;
+  @apply font-serif;
+  @apply mb-4;
+}
+
+p {
+  @apply mb-2;
+}
+
+a {
+  @apply text-blue-500;
+  @apply underline;
+
+  &:hover,
+  &:focus {
+    @apply text-blue-700;
+  }
+}
+
+/* purgecss end ignore */
+
+@tailwind utilities;
+@tailwind screens;
